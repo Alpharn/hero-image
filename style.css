@@ -17,17 +17,17 @@ ul {
 a:visited {}
 
 /* NAVIGATION */
-#nav-background {
+/* #nav-background {
     position: sticky;
     top: 0;
     z-index: 9000;
     width: 100%;
     background: #3334406e;
-}
+} */
 #nav-container {
     display: flex;
     align-items: center;
-
+    border-bottom: 1px solid #2E303E;
 }
 #nav-header {
     max-width: 1440px;
@@ -42,15 +42,18 @@ a:visited {}
 .nav-ul>li {
     display: flex;
 }
+li a {
+    cursor: pointer;
+}
 .nav-link {
     flex: 1;
     text-decoration: none;
     color: #FFF;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-family: Lexend;
+    font-size: 16px;
     font-style: normal;
+    font-weight: 300;
     line-height: normal;
-
     transition: 200ms;
 }
 form {
@@ -77,6 +80,7 @@ form {
     right: 5px;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 /* END NAVIGATION */
 
@@ -204,8 +208,9 @@ path:nth-child(6) {
 }
 
 .main-bg {
-    position: relative;
-    background: url('assets/91279df993568b652251234038479b1d.jfif');
+    position: absolute;
+    width: 100%;
+    background: url('assets/main-bg.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: auto;
@@ -262,6 +267,11 @@ path:nth-child(6) {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
+}
+
+.btn-view-all:hover {
+    background: #5c3c77;
 }
 
 .template-cards {
@@ -279,7 +289,6 @@ path:nth-child(6) {
     height: 343px; 
     border-radius: 15px;
     position: relative;
-    overflow: hidden;
     flex: 1 0 auto;
   }
   .card-image {
@@ -302,6 +311,9 @@ path:nth-child(6) {
     font-weight: 400;
     line-height: normal;
     cursor: pointer;
+  }
+  .btn-demo:hover {
+    background: #34353e;
   }
   .card-text {
     display: flex;
@@ -332,6 +344,10 @@ path:nth-child(6) {
     background: #684386;
     color: #FFF;
     border: none;
+    cursor: pointer;
+  }
+  .btn-add:hover {
+    background: #5c3c77;
   }
   .product-info {
     display: flex;
