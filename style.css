@@ -15,8 +15,6 @@ ul {
     list-style: none;
 }
 
-a:visited {}
-
 /* NAVIGATION */
 /* #nav-background {
     position: sticky;
@@ -324,7 +322,7 @@ path:nth-child(6) {
 }
 
 .btn-demo {
-    display: none;
+    opacity: 0;
     position: absolute;
     left: 10px;
     top: 55%;
@@ -346,7 +344,8 @@ path:nth-child(6) {
 }
 
 .card:hover .btn-demo {
-    display: block;
+    opacity: 1;
+    transition: all .5s;
 }
 
 .card-text {
