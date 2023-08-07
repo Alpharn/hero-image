@@ -337,6 +337,7 @@ path:nth-child(6) {
     font-weight: 400;
     line-height: normal;
     cursor: pointer;
+    transition: opacity .5s;
 }
 
 .btn-demo:hover {
