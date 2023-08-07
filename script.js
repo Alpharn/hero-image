@@ -7,3 +7,15 @@
       navButton.classList.toggle("active");
     }
 })();
+
+(function () {
+  const card = document.querySelector(".card");
+  const video = document.querySelector(".card-video");
+  card.onmouseover = () => {
+    video.play();
+  }
+
+  card.onmouseout = () => {
+    video.pause();
+  }
+})();
