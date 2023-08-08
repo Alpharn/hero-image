@@ -449,6 +449,7 @@ path:nth-child(6) {
 }
 .footer a {
     text-decoration: none;
+    color: #A2A4B0;
 }
 .footer a:visited {
     color: #A2A4B0;
