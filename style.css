@@ -437,9 +437,6 @@ path:nth-child(6) {
 } */
 /* FOOTER SECTION */
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #202126;
     height: 60px;
     color: #A2A4B0;
@@ -448,5 +445,27 @@ path:nth-child(6) {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a:visited {
+    color: #A2A4B0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto; 
+    padding: 20px 0 20px 0;  
+}
+.copyright-container, .legal-container {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.legal-container a {
+    margin: 0 5px;
 }
 /* END FOOTER SECTION */
