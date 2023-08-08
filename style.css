@@ -92,6 +92,7 @@ form {
 }
 .bag-icon {
     margin-left: 55px;
+    cursor: pointer;
 }
 /* END NAVIGATION */
 
