@@ -297,9 +297,6 @@ svg {
 /* MEDIA QUERIES */
 /* Tablet */
 @media (max-width: 768px) {
-    .card {
-        width: calc(100% / 2 - 10px);
-    }
     .footer {
         height: 70px;
         font-size: 12px;
